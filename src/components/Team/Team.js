@@ -1,5 +1,5 @@
 import Title from 'components/Title/Title';
-import s from './Team.module.css';
+
 
 function Team({children}) {
       
