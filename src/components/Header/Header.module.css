@@ -1,0 +1,63 @@
+.container {
+    position: relative;
+    text-align: center;
+    width: 100%;
+
+    background-image: url('../../figs/header_bkg.jpg');
+ /*   background-repeat: no-repeat; */
+    background-color: #7fffd4;
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+
+.container::before {
+  display: block;
+  position: absolute;
+  left: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+  
+  content: '';
+  width: 200px;
+  height: 200px;
+  background-image: url('../../figs/FRESCO_Logo_NoText.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  z-index: 5;
+/*  background-color: black; */
+
+}
+
+
+.title  {
+    font-size: 48px;
+    color: rgb(76, 75, 75);
+    margin-bottom: 40px;
+}
+
+.menuList {
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: center;
+    list-style-type: none;
+    margin-left: calc(-5px);
+  }
+
+  .menuItem {
+    padding: 20px 10px;
+    width: 150px;
+    font-weight: 700;
+
+    text-align: center;
+    color: aliceblue;
+    background-color: #3f3f40;  
+    text-transform: uppercase;
+    margin-left: 5px;
+
+    border-radius: 5px;
+
+  }
+
+  .menuItem:hover {
+    background-color: #747475; 
+  }

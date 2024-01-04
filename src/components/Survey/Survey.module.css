@@ -1,0 +1,13 @@
+.content {
+    font-size: 24px;
+    font-family: 'Merriweather', serif;
+    line-height: 1.5;
+    text-align: justify;
+}
+
+.abs {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    text-align: left;
+}
