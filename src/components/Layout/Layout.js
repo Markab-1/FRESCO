@@ -9,6 +9,7 @@ function Layout({children}) {
     return ( 
       <Container>
           <Header/>
+
           <Footer/>
       </Container>
     ) ;

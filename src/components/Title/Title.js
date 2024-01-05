@@ -3,7 +3,7 @@ import s from './Title.module.css';
 function Title({title}) {     
   return ( 
 
-       <h1 className={s.title}> {title} </h1>
+       <h2 className={s.title}> {title} </h2>
 
   ) ;
 }

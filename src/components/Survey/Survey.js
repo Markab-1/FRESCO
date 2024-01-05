@@ -1,12 +1,19 @@
 import Title from 'components/Title/Title';
 import Section from 'components/Section/Section';
 import s from './Survey.module.css';
+import Undertitle from 'components/Undertitle/Undertitle';
+import Subsection from 'components/Subsection/Subsection';
+import Subtitle from 'components/Subtitle/Subtitle';
+
+import frescoField from "../../figs/FRESCO_Layout_wJEMS_sm.jpg";
 
 function Survey({children}) {
       
   return ( 
     <Section>
         <Title title="Survey"/>
+        <Undertitle title="The fresco dataset"/>
+        <Subsection>
 <p className={s.abs}>ABSTRACT</p>
 <p className={s.abs}>FRESCO: The First Reionization Epoch Spectroscopically Complete Observations </p>
 <p className={s.content}>
@@ -25,6 +32,27 @@ is one of Hubble's greatest achievements. Yet huge gaps in our understanding rem
  provide the total line fluxes for estimating galaxy stellar mass and critically-needed slit-loss calibrations of NIRSpec/MSA 
  spectra. We are not requesting proprietary time to ensure that FRESCO will be a key Legacy dataset for the community. 
  </p>
+ </Subsection>
+ <hr style={{width: '1200px', marginLeft: 'calc(-30px)'  }}/>
+ <Subsection>
+ <Subtitle title="Fresco survey layout:"/>
+    <div className={s.layout}>
+        <div className={s.layoutItem}>
+        <img src={frescoField} alt="FRESCO field" />
+        </div>
+        <div className={s.layoutItem}>
+            FRESCO is designed to optimally cover the two CANDELS/Deep regions in the 
+             GOODS-S and -N fields, which are among the most valuable extragalactic legacy 
+            fields in the full sky. Since more than 40% of all known z ∼ 7 − 8 candidate galaxies 
+            lie in these fields, they are the obvious choice for complete spectroscopic follow-up. 
+            Additionally, the two fields show different large scale structures, with GOODS-N featuring 
+            an overdensity of z ∼ 7 − 8 candidates. The FRESCO mosaics are designed to cover a total area 
+            of 7 x 8.6 sq-arcmin both with grism spectroscopy and medium band imaging, which will 
+            significantly add to the legacy of these fields.
+        </div>
+    </div>
+    <p>More detailed information on the FRESCO survey can be found in the overview paper <a href="https://arxiv.org/abs/2304.02026" target="_blank" rel="noreferrer noopener">Oesch et al. (2023)</a>.</p>
+ </Subsection>
     </Section>
   ) ;
 }

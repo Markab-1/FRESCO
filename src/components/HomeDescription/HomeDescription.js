@@ -2,12 +2,14 @@ import Section from 'components/Section/Section';
 import Title from 'components/Title/Title';
 
 import s from './HomeDescription.module.css';
+import Subsection from 'components/Subsection/Subsection';
 
 function HomeDescription({children}) {
       
   return ( 
     <Section>
       <Title title="Welcome to the JWST FRESCO Survey"/>
+      <Subsection>
         <div className={s.content}>
             <p className={s.par}>
             FRESCO stands for the "First Reionization Epoch Spectroscopically Complete Observations" - 
@@ -24,6 +26,7 @@ function HomeDescription({children}) {
             immediately and can be downloaded from the STScI MAST <a href="https://arxiv.org/abs/2304.02026" target="_blank" rel="noreferrer noopener">Oesch et al. (2023)</a>
             </p>
         </div>
+        </Subsection>
     </Section>
   ) ;
 }

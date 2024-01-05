@@ -6,7 +6,7 @@
     background-image: url('../../figs/header_bkg.jpg');
  /*   background-repeat: no-repeat; */
     background-color: #7fffd4;
-    padding-top: 40px;
+    padding-top: 60px;
     padding-bottom: 20px;
 }
 
@@ -30,9 +30,9 @@
 
 
 .title  {
-    font-size: 48px;
+    font-size: 52px;
     color: rgb(76, 75, 75);
-    margin-bottom: 40px;
+    margin-bottom: 50px;
 }
 
 .menuList {
