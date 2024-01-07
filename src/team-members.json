@@ -1,16 +1,297 @@
 [
-  { "name": "Pascal",
+  { 
+    "id": 1,
+    "name": "Pascal",
     "fname": "Oesch",
     "institute": "University of Geneva and DAWN, Copenhagen"
   },
 
-  { "name": "Gabe",
+  { 
+    "id": 2,
+    "name": "Gabe",
     "fname": "Brammer",
     "institute": "DAWN Center, University of Copenhagen"
   },
 
-  { "name": "Gabe",
-    "fname": "Brammer",
+  { 
+    "id": 3,
+    "name": "Rychard",
+    "fname": "Bouwens",
+    "institute": "Universiteit Leiden" 
+  }, 
+
+  { 
+    "id": 4,
+    "name": "John",
+    "fname": "Chisholm",
+    "institute": "UT Austin" 
+  },
+
+  { 
+    "id": 5,
+    "name": "Alba",
+    "fname": "Covelo-Paz",
+    "institute": "University of Geneva"
+  },   
+
+  { 
+    "id": 6,
+    "name": "Ryan",
+    "fname": "Endsley",
+    "institute": "UT Austin"    
+  },
+
+  { 
+    "id": 7,
+    "name": "Yoshinobu",
+    "fname": "Fudamoto",
+    "institute": "Waseda University"    
+  },
+
+  { 
+    "id": 8,
+    "name": "Emma",
+    "fname": "Giovinazzo",
+    "institute": "University of Geneva"    
+  },
+
+  { 
+    "id": 9,
+    "name": "Thomas",
+    "fname": "Herard-Demanche",
+    "institute": "Universiteit Leiden"    
+  },
+
+  { 
+    "id": 10,
+    "name": "Garth",
+    "fname": "Illingworth",
+    "institute": "University of California - Santa Cruz"    
+  },
+
+  { 
+    "id": 11,
+    "name": "Josephine",
+    "fname": "Kerutt",
+    "institute": "University of Geneva"    
+  },
+
+  { 
+    "id": 12,
+    "name": "Ivan",
+    "fname": "Kramarenko",
+    "institute": "University of Geneva"    
+  },
+
+  { 
+    "id": 13,
+    "name": "Ivo",
+    "fname": "Labbe",
+    "institute": "Swinburne University"    
+  },
+
+  { 
+    "id": 14,
+    "name": "Ecaterina",
+    "fname": "Leonova",
+    "institute": "Amsterdam University"    
+  },
+
+  { 
+    "id": 15,
+    "name": "Jamie",
+    "fname": "Lin",
+    "institute": "Tufts University"    
+  },
+
+  { 
+    "id": 16,  
+    "name": "Daniel",
+    "fname": "Magee",
+    "institute": "University of California - Santa Cruz"    
+  },
+
+  { 
+    "id": 17,
+    "name": "Danilo",
+    "fname": "Marchesini",
+    "institute": "Tufts University"    
+  },
+
+  { 
+    "id": 18,
+    "name": "Michael",
+    "fname": "Maseda",
+    "institute": "University of Wisconsin-Madison"    
+  },
+
+  { 
+    "id": 19,
+    "name": "Charlotte",
+    "fname": "Mason",
+    "institute": "DAWN Center, University of Copenhagen"    
+  },
+
+  { 
+    "id": 20,
+    "name": "Jasleen",
+    "fname": "Matharu",
     "institute": "DAWN Center, University of Copenhagen"
-  }  
+    
+  },
+
+  { 
+    "id": 21,
+    "name": "Jorryt",
+    "fname": "Matthee",
+    "institute": "ETH Zurich"    
+  },
+
+  { 
+    "id": 22,
+    "name": "Romain",
+    "fname": "Meyer",
+    "institute": "University of Geneva"    
+  },
+
+  { 
+    "id": 23,
+    "name": "Rohan",
+    "fname": "Naidu",
+    "institute": "MIT"    
+  },
+
+  { 
+    "id": 24,
+    "name": "Erica",
+    "fname": "Nelson",
+    "institute": "University of Colorado Boulder"    
+  },
+
+  { 
+    "id": 25,
+    "name": "Chloe",
+    "fname": "Neufeld",
+    "institute": "Yale University"    
+  },
+
+  { 
+    "id": 26,
+    "name": "Gonzalo",
+    "fname": "Prieto Lyon",
+    "institute": "DAWN Center, University of Copenhagen"    
+  },
+
+  { 
+    "id": 27,
+    "name": "Yuxiang",
+    "fname": "Qin",
+    "institute": "Melbourne University"    
+  },
+
+  { 
+    "id": 28,
+    "name": "Naveen",
+    "fname": "Reddy",
+    "institute": "UC Riverside"    
+  },
+
+  { 
+    "id": 29,
+    "name": "Daniel",
+    "fname": "Schaerer",
+    "institute": "University of Geneva"    
+  },
+
+  { 
+    "id": 30,
+    "name": "Alice",
+    "fname": "Shapley",
+    "institute": "UCLA"    
+  },
+
+  { 
+    "id": 31,
+    "name": "Raman",
+    "fname": "Sharma",
+    "institute": "University of Bath"    
+  },
+
+  { 
+    "id": 32,
+    "name": "Irene",
+    "fname": "Shivaei",
+    "institute": "University of Arizona"    
+  },
+
+  { 
+    "id": 33,
+    "name": "Marko",
+    "fname": "Shuntov",
+    "institute": "DAWN Center, University of Copenhagen"    
+  },
+
+  { 
+    "id": 34,
+    "name": "Renske",
+    "fname": "Smit",
+    "institute": "Liverpool John Moores University"    
+  },
+
+  { 
+    "id": 35,
+    "name": "Mauro",
+    "fname": "Stefanon",
+    "institute": "Valencia"    
+  },
+
+  {  
+    "id": 36,
+    "name": "Andrea",
+    "fname": "Weibel",
+    "institute": "University of Geneva"    
+  },
+
+  { 
+    "id": 37,
+    "name": "Kate",
+    "fname": "Whitaker",
+    "institute": "UMASS"    
+  },
+
+  { 
+    "id": 38,
+    "name": "Stijn",
+    "fname": "Wuyts",
+    "institute": "University of Bath"    
+  },
+
+  { 
+    "id": 39,
+    "name": "Stuart",
+    "fname": "Wyithe",
+    "institute": "Melbourne University"    
+  },
+
+  { 
+    "id": 40,
+    "name": "Pieter",
+    "fname": "van Dokkum",
+    "institute": "Yale Universityt"    
+  },
+
+  { 
+    "id": 41,
+    "name": "Mengyuan",
+    "fname": "Xiao",
+    "institute": "University of Geneva"    
+  },  
+  
+  { 
+    "id": 42,
+    "name": "Anna",
+    "fname": "Velichko",
+    "institute": "University of Geneva"    
+  }
+
 ]
