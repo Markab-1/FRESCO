@@ -1,4 +1,5 @@
 import {NavLink, Outlet} from 'react-router-dom';
+import logo from '../../figs/FRESCO_Logo_NoText.png';
 
 
 import s from './Header.module.css';
@@ -7,6 +8,7 @@ function Header({children}) {
     return (
         <div>        
             <div className={s.container}>
+            <img className={s.img} src={logo} alt="logo" />
             <h1 className={s.title}>The FRESCO JWST Survey </h1>
             <ul className={s.menuList}>
                 <li>
@@ -27,6 +29,11 @@ function Header({children}) {
                 <li > 
                     <NavLink to= "/products">
                         <div className={s.menuItem}>Data products</div>
+                    </NavLink>
+                </li>
+                <li > 
+                    <NavLink to= "/publications">
+                        <div className={s.menuItem}>Publications</div>
                     </NavLink>
                 </li>
             </ul>            

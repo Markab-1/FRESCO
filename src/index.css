@@ -18,6 +18,10 @@ code {
 
 a { text-decoration: none; }
 
+a:hover{
+  color: #cc4f06;
+}
+
 h1,h2,h3,h4,h5,h6,p {  margin: 0;}
 
 /*p {text-indent: 30px;} */

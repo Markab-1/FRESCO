@@ -10,7 +10,7 @@
     padding-bottom: 20px;
 }
 
-.container::before {
+/*.container::before {
   display: block;
   position: absolute;
   left: 20px;
@@ -24,10 +24,36 @@
   background-size: contain;
   background-repeat: no-repeat;
   z-index: 5;
-/*  background-color: black; */
+ background-color: black; 
 
+} */
+
+
+.img {
+  display: block;
+  position: absolute;
+  left: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+  
+  content: '';
+  width: 200px;
+  z-index: 5;
 }
 
+.img:hover {
+  position: absolute;
+  left: 20px;
+  top: 50%;
+  transform: translateY(-50%) scale(1.1);
+  transition: transform 400ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+.title  {
+    font-size: 52px;
+    color: rgb(76, 75, 75);
+    margin-bottom: 50px;
+}
 
 .title  {
     font-size: 52px;
@@ -45,7 +71,7 @@
 
   .menuItem {
     padding: 20px 10px;
-    width: 150px;
+    width: 120px;
     font-weight: 700;
 
     text-align: center;
