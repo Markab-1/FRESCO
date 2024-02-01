@@ -11,7 +11,7 @@ function Publications({children}) {
       
   return ( 
     <Section>
-        <Title title="FRESCO publucations"/> 
+        <Title title="FRESCO publications"/> 
         <Subsection>
         <PaperList list={papers}/>
         </Subsection>   
