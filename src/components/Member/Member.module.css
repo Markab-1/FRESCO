@@ -17,3 +17,26 @@
 .hex {
     font-size: 10px;
 }
+
+.pointBox{
+    display: inline-flex;
+    width:20px;
+    height: 20px;
+    margin-right: 10px;
+    transform: translateY(5px);
+}
+
+.itemMobile{
+    display: inline-flex;
+    flex-direction: column;
+}
+.boxMobile {
+    display: flex;
+    flex-direction: row;
+    margin-left: calc(-5px);
+
+}
+
+.name{
+    font-weight: 700;
+}
