@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/FRESCO/static/css/main.f5ce2d03.css",
-    "main.js": "/FRESCO/static/js/main.0c6e01a9.js",
+    "main.css": "/FRESCO/static/css/main.94115b1b.css",
+    "main.js": "/FRESCO/static/js/main.6bf95d39.js",
     "static/media/FRESCO_Logo_NoText.png": "/FRESCO/static/media/FRESCO_Logo_NoText.40b9e2aa8b8501a44758.png",
     "static/media/header_bkg.jpg": "/FRESCO/static/media/header_bkg.7bfabdf36b30ec0977bc.jpg",
     "static/media/FRESCO_Layout_wJEMS_sm.jpg": "/FRESCO/static/media/FRESCO_Layout_wJEMS_sm.42e1e1c92cb14de7e456.jpg",
     "static/media/sprite.svg": "/FRESCO/static/media/sprite.92cd8b206c653d626cdf51cd8a1ff675.svg",
     "index.html": "/FRESCO/index.html",
-    "main.f5ce2d03.css.map": "/FRESCO/static/css/main.f5ce2d03.css.map",
-    "main.0c6e01a9.js.map": "/FRESCO/static/js/main.0c6e01a9.js.map"
+    "main.94115b1b.css.map": "/FRESCO/static/css/main.94115b1b.css.map",
+    "main.6bf95d39.js.map": "/FRESCO/static/js/main.6bf95d39.js.map"
   },
   "entrypoints": [
-    "static/css/main.f5ce2d03.css",
-    "static/js/main.0c6e01a9.js"
+    "static/css/main.94115b1b.css",
+    "static/js/main.6bf95d39.js"
   ]
 }
