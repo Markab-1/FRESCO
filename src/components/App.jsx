@@ -10,7 +10,7 @@ import Publications from './Publications/Publications';
 
 export const App = () => {
   return (
-<div style={{ minHeight: "100vh" }}>
+<div style={{ minWidth: "100vw" }}>
 <Routes>
   <Route path="/" element={<Layout/>}>
     <Route index element={<HomeDescription/>}/>
