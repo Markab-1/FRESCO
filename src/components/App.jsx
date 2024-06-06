@@ -10,7 +10,7 @@ import Publications from './Publications/Publications';
 
 export const App = () => {
   return (
-
+<div style={{ minHeight: "100vh" }}>
 <Routes>
   <Route path="/" element={<Layout/>}>
     <Route index element={<HomeDescription/>}/>
@@ -20,6 +20,6 @@ export const App = () => {
     <Route path="publications" element={<Publications/>}/>
   </Route>
 </Routes>
-
+</div>
   );
 };
