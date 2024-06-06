@@ -3,6 +3,8 @@ import Section from 'components/Section/Section';
 import Subsection from 'components/Subsection/Subsection';
 import Title from 'components/Title/Title';
 
+import s from './Products.module.css'
+
 function Products({children}) {      
     return ( 
       <Section>
@@ -16,11 +18,13 @@ function Products({children}) {
             The JWST raw data of our survey are public immediately, and can be accessed through the MAST archive.
         </p>
         <p>
-            The imaging data have been delivered to MAST and are being processed. They will be available at this DOI:
-        </p>         
-        <a href="https://archive.stsci.edu/doi/resolve/resolve.html?doi=10.17909/gdyc-7g80" target="_blank" rel="noreferrer noopener"> 
-          <Btn text="Mast data DOI"/>  
-        </a>  
+            The imaging data have been delivered to MAST and are being processed. They will be available via this link:
+        </p>
+        <div className={s.link}>          
+        <a href="https://archive.stsci.edu/hlsp/fresco" target="_blank" rel="noreferrer noopener" > 
+          <Btn text="Mast data release"/>  
+        </a> 
+        </div>
         <p>
             For more information, please contact us at: pascal.oesch[at]unige.ch
         </p>

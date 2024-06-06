@@ -1,5 +1,6 @@
 import {NavLink} from 'react-router-dom';
 import { useMediaQuery } from 'react-responsive';
+/*import { useState } from 'react'; */
 
 import s from './NavList.module.css';
 
@@ -21,31 +22,36 @@ const NavList = ({children}) => {
         currentMenuList = s.menuList 
     }
 
+/*    const [isClicked, setIsClicked] = useState(false);
+    const handleSelect = () => setIsClicked(isClicked => !isClicked);*/
+
+/*style={{backgroundColor: isClicked ? '#747475' : '#3f3f40' }}
+onClick={handleSelect}*/
   return  ( 
     <div>        
   <ul className={currentMenuList}>
   <li>
-      <NavLink to= "/"                     >
-          <button className={currentMenuItem}>Home</button>
+      <NavLink to= "/"  >
+          <button className={currentMenuItem} >Home</button>
       </NavLink>
   </li>
   <li>
-      <NavLink to= "/survey">
+      <NavLink to= "/survey" >
           <button className={currentMenuItem}>Survey</button>
       </NavLink>
   </li>
   <li>
-      <NavLink to= "/team">
+      <NavLink to= "/team" >
           <button className={currentMenuItem}>Team</button>
       </NavLink>
   </li>
   <li > 
-      <NavLink to= "/products">
+      <NavLink to= "/products" >
           <button className={currentMenuItem}>Data products</button>
       </NavLink>
   </li>
   <li > 
-      <NavLink to= "/publications">
+      <NavLink to= "/publications" >
           <button className={currentMenuItem}>Publications</button>
       </NavLink>
   </li>
