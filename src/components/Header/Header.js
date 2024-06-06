@@ -33,7 +33,7 @@ function Header({children}) {
                 <div className={s.dropMenuContainer} >
                 <svg className={s.menuSvg} width='35px' height='35px' fill='gray' onClick={toggleNav} style={{visibility: openNav ? `hidden` : `visible` }}><use href={`${Symbols}#icon-menu-sandwich`}/></svg>
                     <div className={s.dropMenu} style={{transform: openNav ? `translateX(0%)` : `translateX(100%)` }}>
-                    <NavList/> 
+                    <NavList setOpenNav={setOpenNav} /> 
                     <svg  height='35px' width='35px' fill='#b55c5e' onClick={toggleNav}><use href={`${Symbols}#icon-cross`}/></svg>                
                     </div>
                 </div>
@@ -42,13 +42,13 @@ function Header({children}) {
                 <div className={s.containerTablet}>
                 <img className={s.imgTablet} src={logo} alt="logo" />
                 <h1 className={s.titleTablet}>The FRESCO JWST Survey </h1>
-                <NavList/>
+                <NavList setOpenNav={setOpenNav}/>
             </div>  }
             {isDesktop &&            
                 <div className={s.container}>
                 <img className={s.img} src={logo} alt="logo" />
                 <h1 className={s.title}>The FRESCO JWST Survey </h1>
-                <NavList/>
+                <NavList setOpenNav={setOpenNav}/>
             </div>
             }
 

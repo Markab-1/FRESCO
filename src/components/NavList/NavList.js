@@ -5,7 +5,7 @@ import { useMediaQuery } from 'react-responsive';
 import s from './NavList.module.css';
 
 
-const NavList = ({children}) => {
+const NavList = (props) => {
 
     const isTablet = useMediaQuery({ query: '(min-width: 768px) and (max-width: 1399px)' })
     const isDesktop = useMediaQuery({ query: '(min-width: 1400px)' })
@@ -32,27 +32,27 @@ onClick={handleSelect}*/
   <ul className={currentMenuList}>
   <li>
       <NavLink to= "/"  >
-          <button className={currentMenuItem} >Home</button>
+          <button className={currentMenuItem} onClick= {() => props.setOpenNav(false)}>Home</button>
       </NavLink>
   </li>
   <li>
       <NavLink to= "/survey" >
-          <button className={currentMenuItem}>Survey</button>
+          <button className={currentMenuItem} onClick = {() => props.setOpenNav(false)}>Survey</button>
       </NavLink>
   </li>
   <li>
       <NavLink to= "/team" >
-          <button className={currentMenuItem}>Team</button>
+          <button className={currentMenuItem} onClick = {() => props.setOpenNav(false)}>Team</button>
       </NavLink>
   </li>
   <li > 
       <NavLink to= "/products" >
-          <button className={currentMenuItem}>Data products</button>
+          <button className={currentMenuItem} onClick = {() => props.setOpenNav(false)}>Data products</button>
       </NavLink>
   </li>
   <li > 
       <NavLink to= "/publications" >
-          <button className={currentMenuItem}>Publications</button>
+          <button className={currentMenuItem} onClick = {() => props.setOpenNav(false)}>Publications</button>
       </NavLink>
   </li>
 </ul> 
